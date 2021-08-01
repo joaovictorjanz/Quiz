@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    background-color: rgb(53, 54, 58);
+}
+
+h1 {
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+    color: #3b72e0;
+    font-size: 45px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'Nova Square', cursive;
+    font-size: 1.7em;
+    color: rgb(53, 54, 58);
+}
+
+li:hover {
+    color: #3b72e0;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+p{
+    font-family: 'Nova Square', cursive; 
+}
+
+/* Quiz Classes */
+.quizContainer {
+    background-color: #acabab;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 190px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.quizContainer:hover {
+    box-shadow: 4px 4px 2px 1px rgb(0, 0, 0);
+}
+
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #000000;
+    /*clear: both;*/
+    color:#fff;
+    font-family: 'Nova Square', cursive;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.nextButton:hover{
+    width: 160px;
+    background-color: #3b72e0;
+    color: black;
+}
+
+.question{
+    font-family: 'Nova Square', cursive;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #3b72e0;
+    text-align: center;
+    color: #000000;
+}
+
+.quizMessage{
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Nova Square', cursive;
+    color: rgb(255, 255, 255);
+}
+
+/*.choiceList {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 33, 143);
+}*/
+
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Nova Square', cursive;
+}
